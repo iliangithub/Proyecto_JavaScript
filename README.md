@@ -162,3 +162,51 @@ Es importante que los códigos sean legibles. Con tabulaciones justas y suficien
 
 ### Estructura de control. WHILE.
 
+Mientras que el dia, sea menor a 25, que siga haciendo X.
+
+```
+let dia = 0
+
+while (dia < 25) {
+ "streaming"
+ dia = dia + 1
+}
+
+
+output--> 25
+```
+
+Y porque me devuelve un 25 ??? y no 25 veces "streaming" ?
+
+```
+let dia = 0
+let streaming_twitch = ""
+
+while (dia < 25) {
+ streaming_twitch = streaming_twitch + "stream"
+ dia = dia + 1
+ streaming_twitch
+}
+```
+
+Evidentemente podemos hacer un **simple echo para que imprima 25 veces "stream".**
+```
+let dia = 0
+let streaming_twitch = ""
+
+while (dia < 4) {
+ console.log("streaming")
+ dia = dia + 1
+}
+```
+
+Y bueno, básicamente, aquí:
+![image](https://github.com/user-attachments/assets/05b193bc-4d1a-41e6-a629-4ef686394cd3)
+Nos dice pues que lo ha repetido 4 veces.
+
+### Expresiones y declaraciones:
+
+![image](https://github.com/user-attachments/assets/8296f557-ceac-4ca2-a774-a2b9726421de)
+
+Recordemos, que en la primera linea. Simplemente estamos declarando una constante, no estamos pidiendo que nos la muestre.
+Y la segunda, pues es una expresión, está expresando algo, que quiere mostrar.
