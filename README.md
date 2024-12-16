@@ -303,4 +303,57 @@ for (let dia = 0; dia < 4; dia++ ){
 Para comentar se hace: ``// para una linea` o `/* */` para más de una línea.
 
 
-### Funciones
+### Funciones:
+
+```
+let finanzas = 500
+
+function tocar_peluche() {
+  finanzas = finanzas - 100
+}
+```
+output--> *undefined*
+
+¿Porqué? Por qué la estamos DECLARANDO. HAY QUE INVOCARLA.
+
+```
+let finanzas = 500
+
+function tocar_peluche() {
+  finanzas = finanzas - 100
+}
+
+tocar_peluche()
+```
+output--> *undefined*
+
+Tampoco muestra nada, **PERO, SI QUE HA EJECUTADO EL CÓDIGO.**
+
+```
+let finanzas = 500
+
+function tocar_peluche() {
+  finanzas = finanzas - 100
+}
+
+tocar_peluche()
+
+finanzas
+```
+output--> 400
+
+Pero claro, ¿esta solucón es un poco pocha, no?
+
+>[!IMPORTANT]
+>Porque claro, de que me sirve crear una función, para que luego yo al ejecutarla tengo que volver a pedirle manualmente que me muestre en pantalla el resultado...
+>
+>````
+> let dinero = 50
+>
+> function dinero () {
+>    dinero = dinero - 5
+>    return dinero
+>}
+>
+>dinero()
+>```
