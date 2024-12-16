@@ -108,7 +108,9 @@ Nos va a dar un error si hacemos:
 
 - frase = "manolo" --> error
 
+
 ***********************************
+
 
 ### Estructura de control. IF.
 ```
