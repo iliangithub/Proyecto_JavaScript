@@ -10,6 +10,10 @@ el comando será node "nombrearchivo"
 
 y lo muestra, recomendable usar VSCode.
 
+*******************************
+
+## Apuntes.
+
 ### Números.
 - 1
 - 2
