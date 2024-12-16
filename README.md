@@ -2,6 +2,14 @@
 
 Básicamente, aquí voy a poner los tipos de datos en JavaScript.
 
+## Cómo ver el código escrito.
+
+Descarga Node.js.
+
+el comando será node "nombrearchivo"
+
+y lo muestra, recomendable usar VSCode.
+
 ### Números.
 - 1
 - 2
