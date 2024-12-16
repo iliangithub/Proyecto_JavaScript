@@ -27,3 +27,10 @@ Básicamente, aquí voy a poner los tipos de datos en JavaScript.
 
 Las cadenas, podemos concatenarlas:
 - "Miguel Angel" + "Durán" (Y te devuelve **Miguel AngelDuran**) (SIN EL ESPACIO)
+
+Entonces, lo que puedes hacer es:
+- "Miguel Angel" + " " + "Durán" (el espacio también es un caracter)
+- "Miguel Angel " + "Duran" (o así también)
+
+Se pueden incrustar valores dentro de un texto y hacer operaciones, que **no es una variable**.
+- `Miguel Angel ${10 + 14}` (**PERO SE TIENE QUE USAR ESTE TIPO DE COMILLA INVERTIDA**)
