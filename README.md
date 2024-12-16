@@ -33,4 +33,4 @@ Entonces, lo que puedes hacer es:
 - "Miguel Angel " + "Duran" (o así también)
 
 Se pueden incrustar valores dentro de un texto y hacer operaciones, que **no es una variable**.
-- `Miguel Angel ${10 + 14}` (**PERO SE TIENE QUE USAR ESTE TIPO DE COMILLA INVERTIDA**)
+- `Miguel Angel ${10 + 14} (**PERO SE TIENE QUE USAR ESTE TIPO DE COMILLA INVERTIDA**)
