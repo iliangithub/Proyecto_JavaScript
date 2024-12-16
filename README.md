@@ -400,3 +400,9 @@ Por último, para que esté comprendido entre 2 números, sea el 14 y 59
 console.log ( Math.floor( Math.random() * (59 - 14) + 14) ) --> 54...
 o el numero comprendido entre eso.
 ```
+
+>[!IMPORTANT]
+>Siendo la fórmula esta:
+>```
+>console.log ( Math.floor( Math.random() * (el núm más grande - el min) + min) )
+>```
