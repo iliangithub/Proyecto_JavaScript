@@ -347,7 +347,7 @@ Pero claro, ¿esta solucón es un poco pocha, no?
 >[!IMPORTANT]
 >Porque claro, de que me sirve crear una función, para que luego yo al ejecutarla tengo que volver a pedirle manualmente que me muestre en pantalla el resultado...
 >
->````
+>```
 > let dinero = 50
 >
 > function dinero () {
