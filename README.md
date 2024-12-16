@@ -201,7 +201,9 @@ while (dia < 4) {
 ```
 
 Y bueno, básicamente, aquí:
+
 ![image](https://github.com/user-attachments/assets/05b193bc-4d1a-41e6-a629-4ef686394cd3)
+
 Nos dice pues que lo ha repetido 4 veces.
 
 ### Expresiones y declaraciones:
@@ -209,4 +211,57 @@ Nos dice pues que lo ha repetido 4 veces.
 ![image](https://github.com/user-attachments/assets/8296f557-ceac-4ca2-a774-a2b9726421de)
 
 Recordemos, que en la primera linea. Simplemente estamos declarando una constante, no estamos pidiendo que nos la muestre.
-Y la segunda, pues es una expresión, está expresando algo, que quiere mostrar.
+
+Y la segunda, pues es una expresión, está expresando algo, ¿el qué? Lo que quiere mostrar.
+
+### ¿Porqué para declarar una variable se usa "let comida = manzana" y no "var comida = manzana"?
+Son parecidos, pero no son iguales.
+
+### Estructura de control. FOR.
+Para el dia que empieza en 0 mientras, que el dia sea menor que 4, y que vaya incrementando de 1 en 1.
+
+```
+for (let dia = 0; dia < 4; dia = dia + 1 ){
+  console.log("streaming")
+}
+```
+
+### Respecto al incrementar:
+Si yo declaro:
+
+```
+let dinero = 14
+
+dinero
+
+output -->14
+```
+
+Si yo hago:
+
+```
+let dinero = 14
+
+dinero = dinero + 1
+
+output -->15
+```
+
+Pero también puedo hacer:
+> [!IMPORTANT]
+>```
+>let dinero = 14
+>
+>dinero++
+>
+>output -->14
+>```
+>
+>**¿Porqué sucede esto, si estoy incrementando?**
+>
+>Pues porque toma el valor de antes...
+>
+>Si lo hago de esta manera:
+>```
+>
+>```
