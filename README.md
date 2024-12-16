@@ -35,7 +35,7 @@ Entonces, lo que puedes hacer es:
 Se pueden incrustar valores dentro de un texto y hacer operaciones, que **no es una variable**.
 - `Miguel Angel ${10 + 14} (**PERO SE TIENE QUE USAR ESTE TIPO DE COMILLA INVERTIDA**)
 
->[!IMPORTNAT] 
+>[!IMPORTANT] 
 >¿Vale y si lo quisiera hacer de otra forma, como lo haría?
 >- "Miguel Angel " + 10+14 (**NO**, Me devuelve, 'Miguel Angel 1014')
 >- "Miguel Angel " + "10+14" (**NO**, Me devuelve, 'Miguel Angel 10+14')
