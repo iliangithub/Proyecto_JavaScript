@@ -2,9 +2,19 @@
 
 Básicamente, aquí voy a poner los tipos de datos en JavaScript.
 
-### Números
+### Números.
 - 1
 - 2
 - 3
 - 1324124
 - -123123
+
+### Operaciones.
+- 1+2
+- 2 + 2 (los espacios dan igual)
+- 2 -2
+- 2 * 4
+- 10 / 5
+- 10 % 5 (cuyo resultado es 0, porque es un operador especial para ver si el número es par o impar, o mejor dicho, devuelve el resto)
+- 2 ** 4 (2 elevado a 4; devuelve 16)
+
