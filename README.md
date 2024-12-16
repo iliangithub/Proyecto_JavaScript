@@ -350,10 +350,10 @@ Pero claro, ¿esta solucón es un poco pocha, no?
 >```
 > let dinero = 50
 >
-> function dinero () {
+> function pagar () {
 >    dinero = dinero - 5
 >    return dinero
 >}
 >
->dinero()
+>pagar()
 >```
