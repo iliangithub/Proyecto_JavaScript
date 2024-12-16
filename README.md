@@ -406,3 +406,10 @@ o el numero comprendido entre eso.
 >```
 >console.log ( Math.floor( Math.random() * (el núm más grande - el min) + min) )
 >```
+
+>[!IMPORTANT]
+>Pero no hemos terminado, para colmo, tenemos que incluir el 59 y el 14 como posibles númeroes que se generen.
+>```
+>console.log ( Math.floor( Math.random() * (1 + 59 - 14) + 14) )
+>```
+>
