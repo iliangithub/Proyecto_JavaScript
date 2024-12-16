@@ -357,3 +357,7 @@ Pero claro, ¿esta solucón es un poco pocha, no?
 >
 >pagar()
 >```
+>
+>*********
+>
+>**MUY IMPORTANTE ENTONCES, EL RETURN SIRVE PARA ESO**
