@@ -108,6 +108,8 @@ Nos va a dar un error si hacemos:
 
 - frase = "manolo" --> error
 
+***********************************
+
 ### Estructura de control. IF.
 ```
 let tenemos_comida_dentro = true
@@ -263,5 +265,39 @@ Pero también puedo hacer:
 >
 >Si lo hago de esta manera:
 >```
+>let dinero = 14
 >
+>dinero++
+>
+>dinero
 >```
+>
+> Porque lo que sucede, es que muestra el valor desactualizado, y tenemos que volver a repetirlo.
+>
+> Otra forma es:
+>
+> ```
+> let dinero = 14
+>
+> ++dinero
+>
+> ```
+> de esta manera lo actualizará.
+>
+> **SE PUEDE INCREMENTAR ++ COMO SUFIJO O COMO PREFIJO.**
+>
+
+Entonces, en el for, lo podría haber hecho así:
+
+```
+for (let dia = 0; dia < 4; dia++ ){
+  console.log("streaming")
+}
+```
+
+### Los cometarios:
+
+Para comentar se hace: ``// para una linea` o `/* */` para más de una línea.
+
+
+### Funciones
