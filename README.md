@@ -26,4 +26,4 @@ Básicamente, aquí voy a poner los tipos de datos en JavaScript.
 - `Miguel Angel o también con la comilla invertida.
 
 Las cadenas, podemos concatenarlas:
-- "Miguel Angel" + "Durán" (Y te devuelve Miguel AngelDuran) (SIN EL ESPACIO)
+- "Miguel Angel" + "Durán" (Y te devuelve **Miguel AngelDuran**) (SIN EL ESPACIO)
